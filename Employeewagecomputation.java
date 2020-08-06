@@ -28,7 +28,7 @@ public class Employeewagecomputation
                 }
                 empWage=empHrs*EMP_RATE_PER_HR;
                 totalempWage+=empWage;
-                System.out.println("employee wage on day " +day+ " is : " +empWage);
+                System.out.println("employee wage on day is : " +empWage);
         }
                 System.out.println("Employee wage " +totalempWage);
 }
